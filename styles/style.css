@@ -1,0 +1,12 @@
+
+.web-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.web-container__spider-web, .web-container__city-map {
+  display: inline-block;
+  /*width: 30%;*/
+  height: 280px;
+}

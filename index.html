@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Presentation</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!--My CSS-->
+		<link rel="stylesheet" href="./styles/style.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>INTERNET:</h1>
+					<p>INTERconnected NETwork</p>
+				</section>
+				<section>
+					<p>Network Connection:</p>
+					<ul>
+						<li>Cables</li>
+						<li>Satellites</li>
+						<li>Cellular Towers</li>
+						<li>etc.</li>
+					</ul>
+				</section>
+				<section>
+					<p>Nobody can DESTROY the Internet!</p>
+				</section>
+				<section>
+					<p>Internet is a military technology!</p>
+				</section>
+				<section>
+					<div class="web-container">
+						<h3>Spider Web</h3>
+						<h3>City Map</h3>
+						<img class="web-container__spider-web" src="./images/SpiderWeb.jpg" alt="Spider Web">
+					  <img class="web-container__city-map" src="./images/CityMap.jpg" alt="City Map">
+				  </div>
+				</section>
+				<section>
+					<p>Different routes from one point to another</p>
+					<img src="./images/Different_Routes.png" alt="Different routes on the map">
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
