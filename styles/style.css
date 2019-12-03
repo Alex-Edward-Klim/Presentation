@@ -1,3 +1,10 @@
+.custom-heading {
+  font-size: 1.2em;
+}
+
+.text-color-red {
+  color: #ff2c2d;
+}
 
 .web-container {
   display: grid;
@@ -5,8 +12,55 @@
   grid-template-rows: auto auto;
 }
 
-.web-container__spider-web, .web-container__city-map {
+.web-container__spider-web, .web-container__city-map, .image {
   display: inline-block;
   /*width: 30%;*/
   height: 280px;
+}
+
+.slide8__span {
+  font-weight: bold;
+}
+
+.slide10-wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.slide10-heading {
+  grid-column: 1 / span 2;
+}
+
+.slide10-img {
+  height: 280px;
+}
+
+.slide12-wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.slide12-heading {
+  grid-column: 1 /span 2;
+}
+
+.slide12-img, .slide20-img, .slide22-img {
+  height: 360px;
+}
+
+.slide16-wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.slide16-heading {
+  grid-column: 1 / span 2;
+}
+
+.slide16-ul {
+  list-style-type: none !important;
+}
+
+.slide22-image-wrapper {
+  background: white;
 }
